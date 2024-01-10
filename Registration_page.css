@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:aliceblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.nag{
+    background-image: linear-gradient(pink,white,skyblue);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 4px silver;
+}
+#btn1{
+    border: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    background-color:transparent;
+    padding-left: 25px;
+    
+}
+#btn1:hover{
+    color: aliceblue;
+}
+#btn2:hover{
+    color: aliceblue;
+}
+
+#btn2{
+    border: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: transparent;
+    text-align:justify;
+
+}
+.nag1{
+    background-color:transparent;
+    border-radius: 40px;
+    height: 20px;
+    width: 150px;
+    padding: 10px;
+    margin-left: 35px;
+    box-shadow: 4px 4px 4px silver;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    background: transparent;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px silver;
+}
+
+#btn3 {
+    background-color: white;
+    border-radius: 4px;
+    color:black;
+    box-shadow: 4px 4px 4px rgb(78, 74, 74);
+    margin-top: 10px;
+     width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+ 
+    
+}
+#btn3:hover{
+    background:green;
+    color:white;
+    box-shadow: 4px 4px 4px silver;
+}
+i{
+    padding: 10px;
+    margin-left: 20px;
+    background-color:transparent;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 4px 4px 4px silver;
+}
+i:hover{
+    background-color: white;
+}
+#username:valid{
+    border-color: green;
+}
+#username:invalid{
+    border-color: red;
+}
+#email:valid{
+    border-color: green;
+}
+#email:invalid{
+    border-color: red;
+}
+#password:valid{
+    border-color: green;
+}
+#password:invalid{
+    border-color: red;
+}
